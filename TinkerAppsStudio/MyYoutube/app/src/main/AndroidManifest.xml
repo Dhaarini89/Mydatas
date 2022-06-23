@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tinker.apps.myyoutube">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/utub"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/utub"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/Theme.MyYoutube"
+        android:usesCleartextTraffic="true">
+         <activity
+            android:name=".List"
+            android:exported="true" />
+        <activity
+            android:name=".Deletevideos"
+            android:exported="true"
+            android:label="Delete current videos" />
+        <activity
+            android:name=".Updatevideos"
+            android:exported="true"
+            android:label="Add new videos" />
+        <activity
+            android:name=".Player"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/layoutinner"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/check_box"
+        android:visibility="invisible"
+        android:src="@drawable/ic_circle"
+        />
+
+</LinearLayout>
+</LinearLayout>

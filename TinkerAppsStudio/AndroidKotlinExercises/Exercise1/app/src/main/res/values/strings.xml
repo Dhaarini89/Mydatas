@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Exercise1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="instructions">சரியான வார்த்தையை கண்டுபிடி.</string>
+    <string name="skip">தவிர்</string>
+    <string name="submit">சமர்ப்பிக்க</string>
+    <string name="enter">நுழை</string>
+    <string name="score">மதிப்பெண்: %d</string>
+    <string name="word_count">%d வார்த்தைகளில் %d</string>
+    <string name="enter_your_word">சரியான வார்த்தையை உள்ளிடவும்</string>
+    <string name="congratulations">வாழ்த்துக்கள்!</string>
+    <string name="you_scored">"உங்கள் மதிப்பெண்: %d"</string>
+    <string name="exit">வெளியேறு</string>
+    <string name="play_again">மீண்டும் விளையாடு</string>
+    <string name="try_again">முயற்சி செய்!</string>
+    <string name="level1">நிறங்கள்</string>
+    <string name="level2">உணவு பொருட்கள்</string>
+    <string name="level3">உடல் பாகங்கள்</string>
+    <string name="level4">பழங்கள் மற்றும் காய்கறிகள்</string>
+    <string name="level5">உயிரினங்கள்</string>
+    <string name="level6">அன்றாட வீட்டு உபயோக பொருட்கள்</string>
+    <string name="level7">காவியங்கள்</string>
+    <string name="level8">அரசியல் அறிவியல்</string>
+    <string name="level9">கணினி அறிவியல்</string>
+    <string name="create">புதிய பயனர்?</string>
+
+    <string name="profile_name">Profile Name</string>
+
+</resources>
